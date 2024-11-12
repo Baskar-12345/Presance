@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 220px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  transition: width 0.3s;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  margin-left: 240px;
+  background-color: #f4f6f8;
+  min-height: 100vh;
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}

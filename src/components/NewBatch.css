@@ -1,0 +1,52 @@
+.new-batch {
+    padding: 20px;
+    margin-left: 240px;
+  }
+  
+  .new-batch h2 {
+    color: #2c3e50;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .new-batch form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-batch input[type="text"],
+  .new-batch input[type="file"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced6e0;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+  }
+  
+  .new-batch input[type="text"]:focus,
+  .new-batch input[type="file"]:focus {
+    border-color: #3498db;
+  }
+  
+  .new-batch button {
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+  }
+  
+  .new-batch button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+  }
+  
